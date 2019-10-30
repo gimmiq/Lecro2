@@ -1,1 +1,5 @@
-# Lecro2
+embed=discord.Embed(title="Lecro's Market", description="Welcome to Lecro's Market. Before you continue past this point be sure that your Discord account has no affiliation with the account you use to play Rogue Lineage; black marketing is a bannable offense. ", color=0xf0f459)
+embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/420063350324723714/639154194091343873/Short.png")
+embed.add_field(name="Ultras, Progression, Silver", value="Artifacts, Ingredients, etc.", inline=False)
+embed.set_footer(text="React to this message to recieve your roles.")
+await self.bot.say(embed=embed)
