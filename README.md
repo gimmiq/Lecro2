@@ -1,5 +1,55 @@
-embed=discord.Embed(title="Lecro's Market", description="Welcome to Lecro's Market. Before you continue past this point be sure that your Discord account has no affiliation with the account you use to play Rogue Lineage; black marketing is a bannable offense. ", color=0xf0f459)
-embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/420063350324723714/639154194091343873/Short.png")
-embed.add_field(name="Ultras, Progression, Silver", value="Artifacts, Ingredients, etc.", inline=False)
-embed.set_footer(text="React to this message to recieve your roles.")
-await self.bot.say(embed=embed)
+{
+  "content": "this `supports` __a__ **subset** *of* ~~markdown~~ 😃 ```js\nfunction foo(bar) {\n  console.log(bar);\n}\n\nfoo(1);```\nWhen sending webhooks, you can have [masked links](https://discordapp.com) in here!",
+  "embeds": [
+    {
+      "title": "title ~~(did you know you can have markdown here too?)~~",
+      "description": "this supports [named links](https://discordapp.com) on top of the previously shown subset of markdown. ```\nyes, even code blocks```",
+      "url": "https://discordapp.com",
+      "color": 5793964,
+      "timestamp": "2019-10-30T17:56:56.997Z",
+      "footer": {
+        "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
+        "text": "footer text"
+      },
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+      },
+      "image": {
+        "url": "https://cdn.discordapp.com/embed/avatars/0.png"
+      },
+      "author": {
+        "name": "author name",
+        "url": "https://discordapp.com",
+        "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png"
+      },
+      "fields": [
+        {
+          "name": "🤔",
+          "value": "some of these properties have certain limits..."
+        },
+        {
+          "name": "😱",
+          "value": "try exceeding some of them!"
+        },
+        {
+          "name": "🙄",
+          "value": "an informative error should show up, and this view will remain as-is until all issues are fixed"
+        },
+        {
+          "name": "<:thonkang:219069250692841473>",
+          "value": "these last two",
+          "inline": true
+        },
+        {
+          "name": "<:thonkang:219069250692841473>",
+          "value": "are inline fields",
+          "inline": true
+        }
+      ]
+    },
+    {
+      "title": "Woah",
+      "description": "You can also have multiple embeds!\n**NOTE**: The color picker does not work with multiple embeds (yet)."
+    }
+  ]
+}
